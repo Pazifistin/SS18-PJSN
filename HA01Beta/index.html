@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>ToDo List</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Own CSS and JS-->
+    <link rel="stylesheet" href="assets/css/own.css"/>
+
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">TO-DOS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="createTodo.html">Creat New Task</a>
+                <a class="nav-item nav-link" href="editTodo.html">Edit Task</a>
+                <a class="nav-item nav-link" href="howToEditTodo.html">How To Edit</a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Header with site description -->
+    <div class="jumbotron">
+        <h1>
+            My To-Do List
+        </h1>
+        <hr>
+        <h2>
+            Get reminded anytime -
+            Never forget a meeting, deadline or your purchases again.
+        </h2>
+        <!-- Edit helper button -->
+        <br>
+        <p>
+        <h3> Check out NOW how easy it is to create your own task:
+            <a class="btn btn-info" href="howToEditTodo.html">
+                <span class="glyphicon glyphicon-play-circle"></span>
+            </a>
+        </h3>
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+
+
+            <h2> My To-Do List <span><a class="btn btn-success"  href="createTodo.html">Create new Todo</a></span></h2>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Due
+                    </th>
+                    <th>
+                        Completion
+                    </th>
+                    <th>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        Hierbei besteht ein TODO unter anderem aus einem TODO Text (in der Regel weniger als 160 Zeichen), einer Deadline zu wann das TODO bearbeitet werden muss (ende)
+                    </td>
+                    <td>
+                        14.05.18
+                    </td>
+                    <td>
+                        100%
+                    </td>
+                    <td>
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <a class="btn btn-primary" href="editTodo.html">
+                                Edit
+                            </a>
+                            <button type="button" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table-active">
+                    <td>
+                        Some very specific description.
+                    </td>
+                    <td>
+                        23.05.18
+                    </td>
+                    <td>
+                        10%
+                    </td>
+                    <td>
+                        <div class="btn-group-toggle">
+                            <a class="btn btn-primary" href="editTodo.html">
+                                Edit
+                            </a>
+                            <button type="button" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table">
+                    <td>
+                        Medium description with 77 characters. Medium description with 77 characters.
+                    </td>
+                    <td>
+                        29.05.18
+                    </td>
+                    <td>
+                        25%
+                    </td>
+                    <td>
+                        <div class="btn-group-toggle">
+                            <a class="btn btn-primary" href="editTodo.html">
+                                Edit
+                            </a>
+                            <button type="button" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="table-active">
+                    <td>
+                        Short description
+                    </td>
+                    <td>
+                        01.06.18
+                    </td>
+                    <td>
+                        15%
+                    </td>
+                    <td>
+                        <div class="btn-group-toggle">
+                            <a class="btn btn-primary" href="editTodo.html">
+                                Edit
+                            </a>
+                            <button type="button" class="btn btn-danger">
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer class="container-fluid text-center ">
+        Designed and Built by <a href="https://github.com/8dzed2">@Baehde</a> & <a href="https://github.com/Pazifistin">@Wendler</a>
+    </footer>
+</div>
+
+</body>
+</html>

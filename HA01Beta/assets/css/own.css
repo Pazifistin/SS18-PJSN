@@ -23,3 +23,8 @@ footer {
 thead {
     background-color: #2fd31d;
 }
+
+*[role="main"] {
+    border-radius: 5%;
+    background-color: #0c5460;
+}

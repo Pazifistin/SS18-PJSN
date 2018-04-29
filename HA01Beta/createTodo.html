@@ -5,6 +5,9 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Free Web ToDo List">
+        <meta name="keywords" content="ToDo, To-Do, TODO,">
+        <meta name="author" content="Henrik Baehde, Melanie Wendler">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <!-- Own CSS and JS-->
@@ -15,14 +18,11 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html">TO-DOS</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" href="createTodo.html">Creat New Task</a>
                         <a class="nav-item nav-link" href="editTodo.html">Edit Task</a>
-                        <a class="nav-item nav-link" href="howToEditTodo.html">How To Edit</a>
+                        <a class="nav-item nav-link" href="howToEditTodo.html">Wiki</a>
                         <a class="nav-item nav-link" href="about.html">About</a>
                     </div>
                 </div>
@@ -37,19 +37,21 @@
                 </p>
             </div>
             <!-- Form for Todo creation -->
-            <form role="form">
+            <form>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Description</label>
+                    <label for="exampleFormControlTextarea1">
+                        Description
+                    </label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Description ..." ></textarea>
                 </div>
-                <div class="form-group">
+                <div class="form-group ">
                     <label for="inputProgress">
-                    Progress %
+                        Progress %
                     </label>
-                    <input type="number" class="form-control" id="exampleInputPassword1" />
+                    <input type="number" class="form-control" id="inputProgress" />
                 </div>
                 <div class="row">
-                    <div class='col-sm-6'>
+                    <div class="col-xs-6 col-md-2">
                         <div class="form-group">
                             <div class='input-group date' id='datetimepicker1'>
                                 <input type='date' class="form-control" />

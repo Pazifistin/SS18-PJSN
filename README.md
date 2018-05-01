@@ -8,3 +8,5 @@ Programmierpraktikum : Soziale Netzwerke
 Authors:
 - Henrik Baehde (TU Berlin) 
 - Melanie Wendler (TU Berlin)
+
+--> TESTing version
